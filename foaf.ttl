@@ -1,4 +1,4 @@
-@base <http://github.com/doerthe/swt/new/main/foaf.ttl> .
+@base <http://raw.githubusercontent.com/doerthe/swt/main/foaf.ttl> .
 
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
