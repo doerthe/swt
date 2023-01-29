@@ -17,11 +17,11 @@
    dc:creator <#da> .
 
 <#da> a foaf:Person ;
-   rdfs:label "Dörthe Arndt" ;
+   rdfs:label "Doerthe Arndt" ;
    rdfs:comment "Postdoctoral Researcher at ICCL"@en ;
-   foaf:name "Dörthe Arndt" ;
+   foaf:name "Doerthe Arndt" ;
    foaf:age 40 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
-   foaf:givenName "Dörthe" ;
+   foaf:givenName "Doerthe" ;
    foaf:familyName "Arndt" ;
    foaf:img <https://iccl.inf.tu-dresden.de/w/images/8/84/Doerthe-arndt.jpg> ;
    foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl>, <https://ruben.verborgh.org/profile/#me> , <http://champin.net/#pa> ;
