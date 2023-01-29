@@ -1,0 +1,31 @@
+@base <http://github.com/doerthe/swt/new/main/foaf.ttl> .
+
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2021-01-28"^^xsd:date ;
+   dc:title "Doerthe's FOAF Profile"@en ;
+   foaf:primaryTopic <#da> ;
+   dc:creator <#da> .
+
+<#da> a foaf:Person ;
+   rdfs:label "Dörthe Arndt" ;
+   rdfs:comment "Postdoctoral Researcher at ICCL"@en ;
+   foaf:name "Dörthe Arndt" ;
+   foaf:age 40 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:givenName "Dörthe" ;
+   foaf:familyName "Arndt" ;
+   foaf:img <https://iccl.inf.tu-dresden.de/w/images/8/84/Doerthe-arndt.jpg> ;
+   foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl>, <https://ruben.verborgh.org/profile/#me> , <http://champin.net/#pa> ;
+   foaf:interest dbr:Semantic_Web , dbr:Mathematical_logic , dbr:Linguistics , dbr:Sesame_Street ;
+   social:likesMovie dbr:Volver, dbr:Star_Trek:_First_Contact ;
+   social:hasSpiritAnimal dbr:Zebroid ;
+   social:hasFavouritePlatonicSolid dbr:Icosahedron .
