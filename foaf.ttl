@@ -26,7 +26,8 @@
    foaf:img <https://iccl.inf.tu-dresden.de/w/images/8/84/Doerthe-arndt.jpg> ;
    foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl>, <https://ruben.verborgh.org/profile/#me> , <http://champin.net/#pa> , 
       <http://raw.githubusercontent.com/nhdu79/fswt/main/foaf.ttl>, 
-      <https://raw.githubusercontent.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/main/foaf.ttl>;
+      <https://raw.githubusercontent.com/RebekkaMa/Foundations-of-Semantic-Web-Technologies---Tutorial/main/foaf.ttl>,
+      <https://raw.githubusercontent.com/JakobSteinberg/linked-data/main/foaf.ttl>;
    foaf:interest dbr:Semantic_Web , dbr:Mathematical_logic , dbr:Linguistics , dbr:Sesame_Street ;
    social:likesMovie dbr:Volver, dbr:Star_Trek:_First_Contact ;
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ; # I did not dare
